@@ -4,6 +4,8 @@
 window.addEventListener("DOMContentLoaded", init);
 
 // Starts the program, all function calls trace back here
+
+
 function init() {
 	// Get the recipes from localStorage
 	let recipes = getRecipesFromStorage();
@@ -25,6 +27,7 @@ function getRecipesFromStorage() {
 	//           header. It is possible in only a single line, but should
 	//           be no more than a few lines.
 }
+
 
 /**
  * Takes in an array of recipes and for each recipe creates a
